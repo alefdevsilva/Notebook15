@@ -13,3 +13,5 @@ C:\Users\AlefAlessandroPereir\Desktop\Notebook15\Notebook15.DataService\obj\Debu
 C:\Users\AlefAlessandroPereir\Desktop\Notebook15\Notebook15.DataService\obj\Debug\net6.0\refint\Notebook15.DataService.dll
 C:\Users\AlefAlessandroPereir\Desktop\Notebook15\Notebook15.DataService\obj\Debug\net6.0\Notebook15.DataService.pdb
 C:\Users\AlefAlessandroPereir\Desktop\Notebook15\Notebook15.DataService\obj\Debug\net6.0\ref\Notebook15.DataService.dll
+C:\Users\AlefAlessandroPereir\Desktop\Notebook15\Notebook15.DataService\bin\Debug\net6.0\Notebook15.DataService.runtimeconfig.json
+C:\Users\AlefAlessandroPereir\Desktop\Notebook15\Notebook15.DataService\obj\Debug\net6.0\Notebook15.DataService.genruntimeconfig.cache

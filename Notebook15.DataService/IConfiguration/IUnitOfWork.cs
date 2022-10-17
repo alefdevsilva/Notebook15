@@ -8,7 +8,7 @@ namespace Notebook15.DataService.IConfiguration
 {
     public interface IUnitOfWork
     {
-        IUsersRepository users { get; }
+        IUsersRepository Users { get; }
         Task CompleteAsync();
     }
 }
