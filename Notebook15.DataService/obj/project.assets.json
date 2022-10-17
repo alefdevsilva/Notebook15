@@ -281,6 +281,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Notebook15.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Notebook15.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Notebook15.Domain.dll": {}
+        }
       }
     }
   },
@@ -731,11 +741,17 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Notebook15.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Notebook15.Domain/Notebook15.Domain.csproj",
+      "msbuildProject": "../Notebook15.Domain/Notebook15.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.10"
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.10",
+      "Notebook15.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -765,7 +781,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj": {
+              "projectPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
