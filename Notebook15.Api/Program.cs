@@ -1,10 +1,13 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Notebook15.Api.Configuration.Models;
 using Notebook15.DataService.Data;
 using Notebook15.DataService.IConfiguration;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.Configure<JwtConfig>(builder.Configuration.GetSection("JwtConfig"));
 // Add services to the container.
 builder.Services.AddDbContext<AppDbContext>(options => 
                                         options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -19,6 +22,13 @@ builder.Services.AddApiVersioning(opt => {
     opt.ReportApiVersions = true;
     opt.AssumeDefaultVersionWhenUnspecified = true;
     opt.DefaultApiVersion = ApiVersion.Default;
+});
+
+
+builder.Services.AddAuthentication(option => {
+    option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    option.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+    option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 });
 
 var app = builder.Build();

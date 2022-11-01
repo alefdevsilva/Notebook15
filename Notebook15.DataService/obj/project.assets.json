@@ -2040,11 +2040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.DataService\\Notebook15.DataService.csproj",
+      "projectUniqueName": "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.DataService\\Notebook15.DataService.csproj",
       "projectName": "Notebook15.DataService",
-      "projectPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.DataService\\Notebook15.DataService.csproj",
+      "projectPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.DataService\\Notebook15.DataService.csproj",
       "packagesPath": "C:\\Users\\AlefAlessandroPereir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.DataService\\obj\\",
+      "outputPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.DataService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AlefAlessandroPereir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2062,8 +2062,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj": {
-              "projectPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj"
+            "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj": {
+              "projectPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj"
             }
           }
         }

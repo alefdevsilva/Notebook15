@@ -10,3 +10,15 @@ C:\Users\AlefAlessandroPereir\Desktop\Notebook15\Notebook15.Domain\obj\Debug\net
 C:\Users\AlefAlessandroPereir\Desktop\Notebook15\Notebook15.Domain\obj\Debug\net6.0\refint\Notebook15.Domain.dll
 C:\Users\AlefAlessandroPereir\Desktop\Notebook15\Notebook15.Domain\obj\Debug\net6.0\Notebook15.Domain.pdb
 C:\Users\AlefAlessandroPereir\Desktop\Notebook15\Notebook15.Domain\obj\Debug\net6.0\ref\Notebook15.Domain.dll
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\bin\Debug\net6.0\Notebook15.Domain.deps.json
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\bin\Debug\net6.0\Notebook15.Domain.dll
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\bin\Debug\net6.0\Notebook15.Domain.pdb
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\obj\Debug\net6.0\Notebook15.Domain.csproj.AssemblyReference.cache
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\obj\Debug\net6.0\Notebook15.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\obj\Debug\net6.0\Notebook15.Domain.AssemblyInfoInputs.cache
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\obj\Debug\net6.0\Notebook15.Domain.AssemblyInfo.cs
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\obj\Debug\net6.0\Notebook15.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\obj\Debug\net6.0\Notebook15.Domain.dll
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\obj\Debug\net6.0\refint\Notebook15.Domain.dll
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\obj\Debug\net6.0\Notebook15.Domain.pdb
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Domain\obj\Debug\net6.0\ref\Notebook15.Domain.dll

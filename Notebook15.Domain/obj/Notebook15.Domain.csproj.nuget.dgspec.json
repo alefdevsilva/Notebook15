@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj": {}
+    "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj": {
+    "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj",
         "projectName": "Notebook15.Domain",
-        "projectPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj",
+        "projectPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.Domain\\Notebook15.Domain.csproj",
         "packagesPath": "C:\\Users\\AlefAlessandroPereir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\Notebook15\\Notebook15.Domain\\obj\\",
+        "outputPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AlefAlessandroPereir\\AppData\\Roaming\\NuGet\\NuGet.Config",
