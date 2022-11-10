@@ -13,6 +13,7 @@
           "Microsoft.AspNetCore.Mvc.Versioning": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
+          "Notebook.Authentication": "1.0.0",
           "Notebook15.DataService": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -594,6 +595,11 @@
           }
         }
       },
+      "Notebook.Authentication/1.0.0": {
+        "runtime": {
+          "Notebook.Authentication.dll": {}
+        }
+      },
       "Notebook15.DataService/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10",
@@ -1029,6 +1035,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "Notebook.Authentication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Notebook15.DataService/1.0.0": {
       "type": "project",

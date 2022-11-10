@@ -851,6 +851,16 @@
           }
         }
       },
+      "Notebook.Authentication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Notebook.Authentication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Notebook.Authentication.dll": {}
+        }
+      },
       "Notebook15.DataService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2523,6 +2533,11 @@
         "version.txt"
       ]
     },
+    "Notebook.Authentication/1.0.0": {
+      "type": "project",
+      "path": "../Notebook.Authentication/Notebook.Authentication.csproj",
+      "msbuildProject": "../Notebook.Authentication/Notebook.Authentication.csproj"
+    },
     "Notebook15.DataService/1.0.0": {
       "type": "project",
       "path": "../Notebook15.DataService/Notebook15.DataService.csproj",
@@ -2541,6 +2556,7 @@
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
+      "Notebook.Authentication >= 1.0.0",
       "Notebook15.DataService >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -2573,6 +2589,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook.Authentication\\Notebook.Authentication.csproj": {
+              "projectPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook.Authentication\\Notebook.Authentication.csproj"
+            },
             "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.DataService\\Notebook15.DataService.csproj": {
               "projectPath": "C:\\Users\\AlefAlessandroPereir\\Desktop\\DocsAlef\\Notebook15\\Notebook15.DataService\\Notebook15.DataService.csproj"
             }

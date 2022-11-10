@@ -1,0 +1,12 @@
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\bin\Debug\net6.0\Notebook.Authentication.deps.json
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\bin\Debug\net6.0\Notebook.Authentication.dll
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\bin\Debug\net6.0\Notebook.Authentication.pdb
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\obj\Debug\net6.0\Notebook.Authentication.csproj.AssemblyReference.cache
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\obj\Debug\net6.0\Notebook.Authentication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\obj\Debug\net6.0\Notebook.Authentication.AssemblyInfoInputs.cache
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\obj\Debug\net6.0\Notebook.Authentication.AssemblyInfo.cs
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\obj\Debug\net6.0\Notebook.Authentication.csproj.CoreCompileInputs.cache
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\obj\Debug\net6.0\Notebook.Authentication.dll
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\obj\Debug\net6.0\refint\Notebook.Authentication.dll
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\obj\Debug\net6.0\Notebook.Authentication.pdb
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook.Authentication\obj\Debug\net6.0\ref\Notebook.Authentication.dll

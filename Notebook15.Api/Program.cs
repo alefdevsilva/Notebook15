@@ -1,7 +1,10 @@
+using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Notebook15.Api.Configuration.Models;
+using Microsoft.IdentityModel.Tokens;
+using Notebook.Authentication.Configuration;
 using Notebook15.DataService.Data;
 using Notebook15.DataService.IConfiguration;
 
@@ -29,7 +32,25 @@ builder.Services.AddAuthentication(option => {
     option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     option.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
     option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(jwt => {
+    var key = Encoding.ASCII.GetBytes(builder.Configuration["JwtConfig:Secret"]);
+    
+    jwt.SaveToken = true;
+    jwt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters{
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = false, // ToDo Update
+        ValidateAudience = false, // ToDo Update
+        RequireExpirationTime = false, // ToDo Update
+        ValidateLifetime = true 
+    };
 });
+
+builder.Services
+.AddDefaultIdentity<IdentityUser>(options 
+                                    => options.SignIn.RequireConfirmedAccount = true)
+.AddEntityFrameworkStores<AppDbContext>();
 
 var app = builder.Build();
 
@@ -42,6 +63,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

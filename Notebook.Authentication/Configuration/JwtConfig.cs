@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Notebook15.Api.Configuration.Models
+namespace Notebook.Authentication.Configuration
 {
     public class JwtConfig
     {

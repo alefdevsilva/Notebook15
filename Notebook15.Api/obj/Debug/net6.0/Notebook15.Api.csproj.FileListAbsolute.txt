@@ -146,3 +146,5 @@ C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Api\bin\Deb
 C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Api\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Api\bin\Debug\net6.0\Notebook.Authentication.dll
+C:\Users\AlefAlessandroPereir\Desktop\DocsAlef\Notebook15\Notebook15.Api\bin\Debug\net6.0\Notebook.Authentication.pdb
