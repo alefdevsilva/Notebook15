@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Notebook15.Domain.Models
+namespace Notebook15.Domain.DbSet
 {
     public abstract class BaseEntity
     {

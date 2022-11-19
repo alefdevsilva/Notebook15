@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Notebook15.Domain.Models;
+using Notebook15.Domain.DbSet;
 
 namespace Notebook15.DataService.IRepository
 {

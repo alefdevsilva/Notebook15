@@ -611,6 +611,9 @@
         }
       },
       "Notebook15.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.10"
+        },
         "runtime": {
           "Notebook15.Domain.dll": {}
         }

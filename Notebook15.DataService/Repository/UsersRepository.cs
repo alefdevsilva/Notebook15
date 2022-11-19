@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Notebook15.DataService.Data;
 using Notebook15.DataService.IRepository;
-using Notebook15.Domain.Models;
+using Notebook15.Domain.DbSet;
 
 namespace Notebook15.DataService.Repository
 {

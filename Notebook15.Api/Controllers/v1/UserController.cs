@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Notebook15.DataService.IConfiguration;
-using Notebook15.Domain.Models;
+using Notebook15.Domain.DbSet;
 
 namespace Notebook15.Api.Controllers.v1
 {

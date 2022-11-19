@@ -27,6 +27,19 @@ builder.Services.AddApiVersioning(opt => {
     opt.DefaultApiVersion = ApiVersion.Default;
 });
 
+var key = Encoding.ASCII.GetBytes(builder.Configuration["JwtConfig:Secret"]);
+
+var tokenValidationParameters = new TokenValidationParameters()
+{
+    ValidateIssuerSigningKey = true,
+    IssuerSigningKey = new SymmetricSecurityKey(key),
+    ValidateIssuer = false, // ToDo Update
+    ValidateAudience = false, // ToDo Update
+    RequireExpirationTime = false, // ToDo Update
+    ValidateLifetime = true 
+};
+
+builder.Services.AddSingleton(tokenValidationParameters);
 
 builder.Services.AddAuthentication(option => {
     option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -34,17 +47,8 @@ builder.Services.AddAuthentication(option => {
     option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 .AddJwtBearer(jwt => {
-    var key = Encoding.ASCII.GetBytes(builder.Configuration["JwtConfig:Secret"]);
-    
     jwt.SaveToken = true;
-    jwt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters{
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = false, // ToDo Update
-        ValidateAudience = false, // ToDo Update
-        RequireExpirationTime = false, // ToDo Update
-        ValidateLifetime = true 
-    };
+    jwt.TokenValidationParameters = tokenValidationParameters;
 });
 
 builder.Services
