@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Notebook15.DataService.IConfiguration;
 using Notebook15.Domain.DbSet;
@@ -13,9 +14,9 @@ namespace Notebook15.Api.Controllers.v1
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class UserController : BaseController
     {
-        public UserController(IUnitOfWork unitOfWork) : base(unitOfWork)
+        public UserController(IUnitOfWork unitOfWork,
+        UserManager<IdentityUser> userManager) : base(unitOfWork, userManager)
         {
-            
         } 
 
         [HttpGet]
